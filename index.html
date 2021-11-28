@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+
+	<style>
+		body{
+			margin: 0;
+			padding: 0;
+		}
+		.turak{
+			background-image: url(https://cdn.pixabay.com/photo/2016/06/22/11/10/box-1472804_960_720.png);
+  		height:100vh;
+  		background-repeat: no-repeat;
+  		background-size: cover;
+  		display: flex;
+		}
+	.information{
+		max-width: 300px;
+		margin: auto;
+
+	}
+	.btn {
+    text-decoration: none;
+    font-size: 25px;
+    background-color: #fcce16;
+    padding: 15px 30px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+	</style>
+
+	<section class="turak">
+		
+		<div class="information">
+		<script	>
+			var First_Name = "Turak";
+			var Last_Name ="Mi**";
+			var Fathers_Name ="Os********";
+			var Mothers_Name ="Ta******";
+			var Birth = "9****"
+			var Email = "turak40653@gmail.com";
+			var Roll = "100";
+			var Phon_Number = '017********';
+
+
+
+
+
+
+			var Info ="<strong>Full Name: </strong>"
+			+ First_Name+" "+Last_Name+
+			"<br><strong>Fathers Name : </strong>"
+			+Fathers_Name+
+			"<br><strong>Mothers Name : </strong>"
+			+Mothers_Name+
+			"<br><strong>Dath of birth : </strong>"
+			+Birth+
+			"<br><strong>Email address: </strong>"
+			+Email+
+			"<br><strong>Roll: </strong>"
+			+Roll+
+			"<br><strong>Phon Number: </strong>"
+			+Phon_Number;
+
+			document.write(Info);
+
+
+ 			console.log(Info);
+			
+		</script>
+
+	<h2 id="view"></h2>
+	<a target="blank" class="btn" type="button" onclick="ShowNow()" href="cal.html">CALCULATOR</a>
+
+ 	
+
+ 	<script>
+ 		function ShowNow(){
+ 			var a = "Wellcome Sir";
+		document.getElementById('view').innerHTML=a;
+ 		}
+ 	</script>
+     </div>
+	</section>
+	
+
+
+
+</body>
+</html>
